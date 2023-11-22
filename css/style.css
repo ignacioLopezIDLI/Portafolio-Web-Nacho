@@ -1,0 +1,27 @@
+    @media screen and (min-width:992px) {
+        .navbar .container-fluid, .navbar-expand-lg .navbar-collapse, .navbar-expand-lg .navbar-nav{
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        .navbar{
+            width: 24.5%;
+            height: 100vh;
+            
+            
+            
+        }
+    }
+    @media screen and (max-width:991px) {
+        .navbar-brand{
+            display: none;
+        }
+    }
+
+
+/* Seccion Hero */
+.hero{
+    background-color: darkblue;
+    min-height: 450px;
+    text-align: center;
+}
