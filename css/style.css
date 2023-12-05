@@ -177,12 +177,14 @@
                 margin: 0 auto;
 
             }
+    
 
             .section-two1 {
                 color: #FFD800;
                 padding: 20px;
                 max-width: 700px;
                 margin: 0 auto;
+
             }
 
             body {
@@ -195,3 +197,14 @@
                 color: #82f5ff;
                 
             }
+
+            .parrafo{
+                font-size: 1.50rem;
+                color: #FFD800;
+                padding: 20px;
+                max-width: 700px;
+                margin: 0 auto;
+                margin-bottom: -30px;
+                
+            }
+            
