@@ -78,7 +78,7 @@
             }
 
             h2 {
-                font-size: 4rem;
+                font-size: 3rem;
                 margin-left: 17px;
             }
 
@@ -208,3 +208,15 @@
                 
             }
             
+            ul li div{
+                color: #FFD800;
+                margin-bottom: -30px;
+                font-size: 1.50rem;
+            }
+            
+            .contacto{
+                color: rgb(247, 9, 5);
+                margin-bottom: -45px;
+                font-size: 1.50rem;  
+                text-transform: uppercase;
+            }
