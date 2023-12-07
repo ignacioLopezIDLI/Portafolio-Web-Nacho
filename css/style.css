@@ -1,4 +1,4 @@
-            @media screen and (min-width:992px) {
+            @media screen and (min-width:1207px) {
 
                 .navbar .container-fluid,
                 .navbar-expand-lg .navbar-collapse,
@@ -26,14 +26,14 @@
 
             }
 
-            @media screen and (max-width:992px) {
+            @media screen and (max-width:1207px) {
                 .navbar-brand {
                     display: none;
 
                 }
             }
 
-            @media screen and (max-width: 992px) {
+            @media screen and (max-width: 1207px) {
                 .navbar {
                     position: fixed;
                     top: 0;
@@ -54,7 +54,26 @@
 
 
             }
+            @media screen and (max-width: 443px) {
+                .smartphone{
+                  width: 430px;
 
+                }
+                h1{
+                    font-size: 5rem;
+                }
+                h4{
+                    width: 360px;
+                }
+                .sobreMi{
+                    width: 250px;
+                }
+                .contactame{
+                    width: 380px;
+
+                }
+              }
+              
 
 
             /* Estilos Generales */
@@ -211,12 +230,20 @@
             ul li div{
                 color: #FFD800;
                 margin-bottom: -30px;
-                font-size: 1.50rem;
+                font-size: 1.25rem;
             }
             
             .contacto{
                 color: rgb(247, 9, 5);
                 margin-bottom: -45px;
-                font-size: 1.50rem;  
+                font-size: 1.25rem;  
                 text-transform: uppercase;
+            }
+
+            .listac{
+                width: 283px;
+                height: 50px;
+            }
+            .top{
+                margin-top: -70px;
             }
