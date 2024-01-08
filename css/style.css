@@ -74,6 +74,10 @@
                     width: 380px;
 
                 }
+                .viajes{
+                    width: 396px;
+                }
+                
                 .navbar {
                     display: none;
                     position: fixed;
@@ -119,6 +123,7 @@
                 color: #FFD800;
 
             }
+            
             
             
             a{
@@ -171,6 +176,14 @@
 
             }
 
+            .link-group{
+                width: 60px;
+
+            }
+
+            .iconop{
+                font-size: 45px;
+            }
             .d-flex a:hover i {
                 color: #01eeff; /* Cambia el color al pasar el mouse */
               }
