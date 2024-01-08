@@ -67,6 +67,9 @@
                 h4{
                     width: 360px;
                 }
+                .h22{
+                   padding-left: 50px;
+                }
                 .sobreMi{
                     width: 250px;
                 }
@@ -77,7 +80,10 @@
                 .viajes{
                     width: 396px;
                 }
-                
+                .portafolio
+                {
+                    width: 456px;
+                }
                 .navbar {
                     display: none;
                     position: fixed;
@@ -88,6 +94,20 @@
                     z-index: 999;
                     
                   }
+                  
+                .rowport2{
+                    width: 300px;
+                    padding-left: 40px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    flex-direction: column;
+
+                }
+
+                .col{
+                    width: 399px;
+                }
                 
               }
               
@@ -124,7 +144,9 @@
 
             }
             
-            
+            .card{
+                width:280px;
+            }
             
             a{
                 text-decoration: none;
@@ -236,6 +258,10 @@
 
             }
     
+            .rowport{
+                width: 900px;
+
+            }
 
             .section-two1 {
                 color: #FFD800;
@@ -253,7 +279,13 @@
             .card-body{
                 background-color: rgb(0, 9, 110);
                 color: #82f5ff;
+                height: 282px
                 
+            }
+            .card-img-top{
+                height: 100%;
+                width: 100%;
+    
             }
 
             .parrafo{
