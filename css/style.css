@@ -5,7 +5,7 @@
                 .navbar-expand-lg .navbar-nav {
                     flex-direction: column;
                     align-items: center;
-
+                    font-family: 'Roboto Mono', monospace;
 
                 }
 
@@ -16,6 +16,7 @@
                     top: 0;
                     left: 0;
                     overflow-y: hidden;
+                    font-family: 'Roboto Mono', monospace;
 
 
 
@@ -132,7 +133,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                background-color: #0000ad
+                background-color: #191957
             }
             p {
                 font-family: 'Generisch Mono Book', monospace;
@@ -142,7 +143,7 @@
             
             .total {
 
-                background-color: #0000ad
+                background-color: #191957
             }
 
             h1 {
@@ -161,7 +162,7 @@
               }
 
             h2 {
-                font-size: 3rem;
+                font-size: 4rem;
                 margin-left: 17px;
             }
 
@@ -192,7 +193,7 @@
                 padding-top: 5rem;
                 padding-bottom: 5rem;
                 max-width: 75rem;
-                background-color: #0000ad
+                background-color: #191957
             }
 
             section.resume-section .resume-section-content {
@@ -248,7 +249,7 @@
 
 
             .color {
-                background-color: #00008e
+                background-color: #181863
             }
 
             body {
@@ -263,7 +264,7 @@
             }
 
             .navbar-nav .nav-link.active  {
-                color: #fff;
+                color: #80e9fb;
 
             }
 
@@ -278,7 +279,7 @@
             }
 
             .text {
-                color: #180247;
+                color: #80e9fb;
             }
 
             .hrr {
@@ -313,7 +314,7 @@
             }
 
             .card-body{
-                background-color: rgb(0, 9, 110);
+                background-color: #181863 ;
                 color: #82f5ff;
                 height: 282px
                 
@@ -374,5 +375,23 @@
                 height: 50px;
 
             }
+
+            .language-selector {
+                display: flex;
+                gap: 10px; /* Espacio entre las banderas */
+              }
+            
+              .language-selector img {
+                margin-top: 10px;
+                height: 40px; /* Ajusta la altura según sea necesario */
+                width: auto; /* Para mantener la proporción original */
+                cursor: pointer; /* Cambia el cursor al pasar sobre las banderas */
+                transition: opacity 0.3s ease;
+                opacity: 1;
+              }
+
+              .language-selector img:hover {
+                opacity: 0.5; /* Opacidad al pasar el cursor */
+              }
 
             
