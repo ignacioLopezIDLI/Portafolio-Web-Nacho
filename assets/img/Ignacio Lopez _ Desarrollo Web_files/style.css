@@ -410,21 +410,8 @@
                 color: #FFD800;
                 font-size: 1.15rem;
                 font-weight: 400;
-                margin-left: 3px;
-                text-decoration: none,
-            }
-            .enlace-mi{
-                padding-left: 17px;
-            }
-            .pt-sobremi-p{
-                padding-top: 20px;
-
+                text-decoration: none
             }
             .enlace:hover {
                 text-decoration: underline; /* Añade subrayado al pasar el ratón */
               }
-              
-            .git-pl{
-                padding-left: 17px;
-            }
-              

@@ -1,11 +1,56 @@
 {
-    "nav": {
-      "home": "NACHO",
-      "about": "ABOUT ME",
-      "portfolio": "PORTFOLIO",
-      "skills": "SKILLS",
-      "travel": "TRAVELS & LANGUAGES",
-      "contact": "CONTACT"
+  "nav": {
+    "home": "NACHO",
+    "about": "ABOUT ME",
+    "portfolio": "PORTFOLIO",
+    "skills": "SKILLS",
+    "travel": "TRAVELS AND LANGUAGES",
+    "contact": "CONTACT"
+  },
+  "home": {
+    "welcome": "Welcome to my portfolio as a Trainee Developer.",
+    "contact": "If you want to get in touch with me, write to",
+    "downloadCvBtn": "Download my CV",
+    "contactEmail": "Ignaciolopez2000"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "description": "Technology enthusiast and a constant explorer. Passionate about merging the digital world with global experiences. Seeking opportunities to contribute and learn.",
+    "currentStatus": "Currently studying and looking to expand my work in the web development world.",
+    "contact": "If you want to get in touch with me, write to:",
+    "socialMedia": "I invite you to check out my social media profiles on:",
+    "linkedIn": "LinkedIn",
+    "gitHub": "GitHub"
+  },
+  "portfolio": {
+    "title": "PORTFOLIO",
+    "crud": "Web application for managing CRUD data with login and authentication",
+    "expense": "Efficient app for managing expenses with income and expense features",
+    "laboral": "Platform for publishing software projects, connecting talent and opportunities",
+    "name-peli": "Movie Web",
+    "web-peli": "Discover the Most Highlighted Movies of the Moment",
+    "ruby": "Ruby on Rails API with: Create, Read, Update, and Delete data",
+    "node": "Node.js API with MongoDB: Create, Read, Update, and Delete data"
+  },
+  "skills": {
+    "title": "SKILLS",
+    "lenguajes": "PROGRAMMING LANGUAGES",
+    "frameworks": "FRAMEWORKS AND LIBRARIES",
+    "software": "SOFTWARE AND TOOLS",
+    "actual": "CURRENTLY STUDYING AND LEARNING"
+  },
+    "travel": {
+      "title": "TRAVELS AND LANGUAGES",
+      "workingHoliday": "Working Holiday in the Czech Republic",
+      "workingHolidayDescription": "I am currently on a Working Holiday in the Czech Republic, exploring new cultures and gaining unique experiences.",
+      "languages": "Languages",
+      "languagesDescription": "As for languages, I have an intermediate level of English, advanced in Portuguese, and Spanish as my native language.",
+      "travelApps": "Travel Applications",
+      "travelAppsDescription": "Additionally, I use applications like Worldpackers and TrustedHousesitters to facilitate my travels and cultural experiences."
+    },
+    "contacto": {
+      "title": "CONTACT ME!",
+      "parrafo": "Let's talk! I'm open to new opportunities and connections. You can find me on different platforms:",
+      "desarrollo": "THIS SITE IS DEVELOPED WITH:"
     }
-  }
-  
+}

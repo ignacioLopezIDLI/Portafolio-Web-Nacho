@@ -1,11 +1,57 @@
 {
-    "nav": {
-      "home": "NACHO",
-      "about": "O MNĚ",
-      "portfolio": "PORTFOLIO",
-      "skills": "Dovednosti",
-      "travel": "Cestování a Jazyky",
-      "contact": "KONTAKT"
-    }
+  "nav": {
+    "home": "NACHO",
+    "about": "O MNĚ",
+    "portfolio": "PORTFOLIO",
+    "skills": "DOVEDNOSTI",
+    "travel": "CESTOVÁNÍ A JAZYKY",
+    "contact": "KONTAKT"
+  },
+  "home": {
+    "welcome": "Vítejte v mém portfoliu jako začínajícího vývojáře.",
+    "contact": "Pokud se chcete se mnou spojit, napište mi na",
+    "downloadCvBtn": "Stáhnout můj životopis",
+    "contactEmail": "Ignaciolopez2000"
+  },
+  "about": {
+    "title": "O MNĚ",
+    "description": "Technologický nadšenec a neustálý průzkumník. Nadšený za sloučení digitálního světa s globálními zkušenostmi. Hledání příležitostí k přispívání a učení se.",
+    "currentStatus": "V současné době studuji a hledám možnosti rozšíření své práce ve světě webového vývoje.",
+    "contact": "Pokud se chcete se mnou spojit, napište mi na:",
+    "socialMedia": "Zvu vás k návštěvě mých profilů na sociálních sítích:",
+    "linkedIn": "LinkedIn",
+    "gitHub": "GitHub"
+  },
+  "portfolio": {
+    "title": "PORTFOLIO",
+    "crud": "Webová aplikace pro správu dat CRUD s přihlášením a autentifikací",
+    "expense": "Efektivní aplikace pro správu výdajů s funkcemi příjmů a výdajů",
+    "laboral": "Platforma pro publikování softwarových projektů, propojení talentu a příležitostí",
+    "name-peli": "Filmová webová stránka",
+    "web-peli": "Objevte nejvýraznější filmy okamžiku",
+    "ruby": "Ruby on Rails API s: Vytváření, čtení, aktualizace a odstranění dat",
+    "node": "Node.js API s MongoDB: Vytváření, čtení, aktualizace a odstranění dat"
+  },
+  "skills": {
+    "title": "DOVEDNOSTI",
+    "lenguajes": "PROGRAMOVACÍ JAZYKY",
+    "frameworks": "FRAMEWORKY A KNIHOVNY",
+    "software": "SOFTWARE A NÁSTROJE",
+    "actual": "AKTUÁLNĚ STUDUJI A UČÍM SE"
+  },
+  "travel": {
+    "title": "CESTOVÁNÍ A JAZYKY",
+    "workingHoliday": "Pracovní prázdniny v České republice",
+    "workingHolidayDescription": "Momentálně pracuji na Pracovní dovolené v České republice, objevuji nové kultury a získávám jedinečné zkušenosti.",
+    "languages": "Jazyky",
+    "languagesDescription": "Co se týče jazyků, mám střední úroveň angličtiny, pokročilou úroveň portugalštiny a španělštinu jako rodný jazyk.",
+    "travelApps": "Cestovní Aplikace",
+    "travelAppsDescription": "Navíc používám aplikace jako Worldpackers a TrustedHousesitters k usnadnění svých cest a kulturních zážitků."
+  },
+  "contacto": {
+    "title": "KONTAKTUJTE MĚ!",
+    "parrafo": "Povídejme si! Jsem otevřen novým příležitostem a propojením. Můžete mě najít na různých platformách:",
+    "desarrollo": "TENTO WEB JE VYVINUTÝ S POMOCÍ:"
   }
-  
+
+}

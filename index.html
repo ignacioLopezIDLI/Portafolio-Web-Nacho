@@ -160,18 +160,23 @@
                 alt="Typing SVG"
             /></a>
             <br />
-            <div class="sub-heading d-flex-md-row mb-5">
+            <div class="sub-heading d-flex-md-row mb-5" data-section="home"
+            data-value="welcome">
               Bienvenido a mi porfolio como Desarrollador Trainee.
             </div>
-            <p class="lead mb-5">
+            <p class="lead1 mb-5" data-section="home"
+            data-value="contact">
               Si quieres ponerte en contacto conmigo escríbeme a
-              <a href="mailto:ignaciolopez2000@gmail.com">Ignaciolopez2000</a>
+              
             </p>
+            <a href="mailto:ignaciolopez2000@gmail.com" data-section="home"
+              data-value="contactEmail" class="enlace">Ignaciolopez2000</a>
             <a
               href="assets/download/CVAndreaPerezH.pdf"
-              download="CVAndreaPerezH.pdf"
+              download="CVIgnacioLopez.pdf"
             >
-              <button type="button" class="btn btn-success">
+              <button type="button" class="btn btn-success bt1 d-flex" data-section="home"
+              data-value="downloadCvBtn">
                 Descarga mi Cv
               </button>
             </a>
@@ -193,34 +198,44 @@
         <!-- SECION SOBRE MI  -->
         <section id="sobre-mi" class="aling-items-stretch p-1">
           <div class="p-5 ola pr width7 ">
-            <h2 class="mb-0 sobreMi  ">SOBRE MI</h2>
-            <p class="lead section-two">
+            <h2 class="mb-0 sobreMi " data-section="about"
+            data-value="title">SOBRE MI</h2>
+            <p class="lead section-two" data-section="about"
+            data-value="description" >
               Amante de la tecnología y viajero en constante exploración. Apasionado por fusionar el mundo digital con experiencias globales. En búsqueda de oportunidades para contribuir y aprender.
             </p>
-            <h4 class="section-two1">
+            <h4 class="section-two1" data-section="about"
+            data-value="currentStatus">
               Actualmente estudio y busco ampliar mi campo laboral en el mundo del desarrollo web.
             </h4>
             <br />
             <br />
-            <p class="lead p22 ">
+            <p class=" lead1 lead p22" data-section="about"
+            data-value="contact">
               Si quieres ponerte en contacto conmigo, escríbeme a
-              <a href="mailto:ignaciolopez2000@gmail.com">Ignaciolopez2000</a>
             </p>
+            <a href="mailto:ignaciolopez2000@gmail.com" class="enlace-mi enlace">Ignaciolopez2000</a>
             
-            <div>
-              <p class="lead  p22 ">
+            <div class="lead1">
+              <p class="lead p22 pt-sobremi-p " data-section="about"
+              data-value="socialMedia">
                 Te invito a conocer mis redes sociales
-                <a
-                  href="https://www.linkedin.com/in/ignacio-lopez-ibacache-676661a1/"
-                  class="linkedin-link"
-                  >LinkedIn</a
-                >
+              </p>              
                 <a
                   href="https://github.com/ignacioLopezIDLI"
-                  class="github-link"
+                  class="github-link enlace git-pl"
+                  data-section="about"
+                  data-value="gitHub"
                   >GitHub</a
                 >
-              </p>
+                <a
+                  href="https://www.linkedin.com/in/ignacio-lopez-ibacache-676661a1/"
+                  class="linkedin-link enlace"
+                  data-section="about"
+                  data-value="linkedIn"
+                  
+                  >LinkedIn</a
+                >
             </div>
           </div>
         </section>
@@ -228,7 +243,7 @@
         <!-- PORTAFOLIO -->
         <section id="portafolio" class="aling-items-stretch p-1">
           <div class="p-5 ola portafolio">
-            <h2 class="mb-0 h22">PORTAFOLIO</h2>
+            <h2 class="mb-0 h22" data-section="portfolio" data-value="title">PORTAFOLIO</h2>
             <div class="album py-5">
               <div class="container section-two">
                   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3  rowport rowport2">
@@ -238,7 +253,7 @@
                               <img src="/assets/img/Crud Node Mongodb.png" class="card-img-top" alt="...">
                               <div class="card-body">
                                   <h5 class="card-title">Crud NodeJS MongoDB</h5>
-                                  <p class="card-text"> Aplicación Web para gestionar datos CRUD con Login y Autenticacion</p>
+                                  <p class="card-text"data-section="portfolio" data-value="crud"> Aplicación Web para gestionar datos CRUD con Login y Autenticacion</p>
 
                                   <div class="lenguajes pl1">
                                       <img alt="Node.js" src="https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white"></a>
@@ -271,7 +286,7 @@
                             <img src="/assets/img/ExpenseTracker.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">ExpenseTracker</h5>
-                                <p class="card-text">App eficiente para gestionar gastos con funciones ingresos y egresos</p>
+                                <p class="card-text"data-section="portfolio" data-value="expense">App eficiente para gestionar gastos con funciones ingresos y egresos</p>
 
                                 <div class="lenguajes">
                                     <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></a> 
@@ -302,7 +317,7 @@
                           <img src="/assets/img/App Laboraljob.png" class="card-img-top" alt="...">
                           <div class="card-body">
                               <h5 class="card-title">APP Laboraljob</h5>
-                              <p class="card-text">Plataforma para publicar proyectos de software, conecta talento y oportunidades.</p>
+                              <p class="card-text"data-section="portfolio" data-value="laboral">Plataforma para publicar proyectos de software, conecta talento y oportunidades.</p>
 
                               <div class="lenguajes pl1">
                                 <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></a> 
@@ -332,8 +347,8 @@
                     <div class="card shadow-sm">
                         <img src="/assets/img/AppMovies.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Web de peliculas</h5>
-                            <p class="card-text">Descubre las Películas más Destacadas del Momento</p>
+                            <h5 class="card-title"data-section="portfolio" data-value="name-peli">Web de peliculas</h5>
+                            <p class="card-text"data-section="portfolio" data-value="web-peli">Descubre las Películas más Destacadas del Momento</p>
 
                             <div class="lenguajes">
                               <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"></a>
@@ -364,7 +379,7 @@
                         <img src="/assets/img/Ruby_On_Rails_Logo.svg.png" class="" alt="..." height="125px">
                         <div class="card-body">
                             <h5 class="card-title">Api Ruby On Rails</h5>
-                            <p class="card-text">API Ruby on Rails con : Creación, lectura, actualización y eliminación de datos</p>
+                            <p class="card-text"data-section="portfolio" data-value="ruby">API Ruby on Rails con : Creación, lectura, actualización y eliminación de datos</p>
 
                             <div class="lenguajes pl1">
                               <img alt="Ruby on Rails" src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white"></a>
@@ -394,7 +409,7 @@
                       <img src="/assets/img/nodejs.jpg" class="card-img-top" alt="..." style="height: 125px;">
                       <div class="card-body">
                           <h5 class="card-title">ExpenseTracker</h5>
-                          <p class="card-text">API Node.js con MongoDB: Creación, lectura, actualización y eliminación de datos.</p>
+                          <p class="card-text"data-section="portfolio" data-value="node">API Node.js con MongoDB: Creación, lectura, actualización y eliminación de datos.</p>
 
                           <div class="lenguajes">
                             <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white"></a>
@@ -428,14 +443,14 @@
     <section  id="skills" class="aling-items-stretch p-1">
       <div class="p-5 ola">
         <h2 class="mb-0">SKILLS</h2>
-        <div class="mt-3 section-two parrafo">LENGUAJES DE PROGRAMACIÓN</div>
+        <div class="mt-3 section-two parrafo" data-section="skills" data-value="lenguajes">LENGUAJES DE PROGRAMACIÓN</div>
         <p class="section-two">
           <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"></a>
           <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"></a>
           <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"></a>
           <img alt="Ruby" src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white"></a> 
       </p>
-        <div class="mt-3 section-two parrafo">FRAMEWORKS Y LIBRERIAS</div>
+        <div class="mt-3 section-two parrafo"data-section="skills" data-value="frameworks">FRAMEWORKS Y LIBRERIAS</div>
         <p class="section-two">
           <img alt="Node.js" src="https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white"></a>
           <img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"></a>
@@ -445,13 +460,13 @@
           <img alt="Handlebars" src="https://img.shields.io/badge/handlebars-%23f0772b.svg?style=for-the-badge&logo=handlebars&logoColor=white"></a>
           <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></a> 
         </p>
-        <div class="mt-3 section-two parrafo">SOFTWARE Y HERRAMIENTAS</div>
+        <div class="mt-3 section-two parrafo" data-section="skills" data-value="software">SOFTWARE Y HERRAMIENTAS</div>
         <p class="section-two">
           <img alt="Heroku" src="https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=heroku&logoColor=white"></a>
           <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white"></a>
           <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"></a>   
        </p>
-       <div class="mt-3 section-two parrafo">ACTUALMENTE ESTUDIANDO Y APRENDIENDO</div>
+       <div class="mt-3 section-two parrafo"data-section="skills" data-value="actual">ACTUALMENTE ESTUDIANDO Y APRENDIENDO</div>
        <p class="section-two">
         <img alt="Docker" src="https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"></a>
         <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></a> 
@@ -463,30 +478,30 @@
     <!-- VIAJES Y IDIOMAS -->
 <section id="viajes" class="aling-items-stretch p-1">
   <div class="p-5 ola viajes">
-    <h2 class="mb-0">VIAJES Y IDIOMAS</h2>
+    <h2 class="mb-0" data-section="travel" data-value="title">VIAJES Y IDIOMAS</h2>
 
     <!-- Working Holiday en la República Checa -->
-    <div class="mt-3 section-two p-0 ">
-      <h4 class="parrafo">Working Holiday en la República Checa</h4>
-      <p class="lead section-two">
+    <div class="mt-3 section-two p-0">
+      <h4 class="parrafo" data-section="travel" data-value="workingHoliday">Working Holiday en la República Checa</h4>
+      <p class="lead section-two" data-section="travel" data-value="workingHolidayDescription">
         Actualmente estoy realizando una Working Holiday en la República Checa,
         explorando nuevas culturas y adquiriendo experiencias únicas.
       </p>
     </div>
 
     <!-- Idiomas -->
-    <div class="mt-3 section-two ">
-      <h4>Idiomas</h4>
-      <p class="lead">
+    <div class="mt-3 section-two">
+      <h4 data-section="travel" data-value="languages">Idiomas</h4>
+      <p class="lead" data-section="travel" data-value="languagesDescription">
         En cuanto a idiomas, cuento con un nivel intermedio de inglés, avanzado
         en portugués y español como lengua nativa.
       </p>
     </div>
 
     <!-- Aplicaciones -->
-    <div class="mt-3 section-two ">
-      <h4>Aplicaciones de Viaje</h4>
-      <p class="lead">
+    <div class="mt-3 section-two">
+      <h4 data-section="travel" data-value="travelApps">Aplicaciones de Viaje</h4>
+      <p class="lead" data-section="travel" data-value="travelAppsDescription">
         Además, utilizo aplicaciones como Worldpackers y TrustedHousesitters para
         facilitar mis viajes y experiencias culturales.
       </p>
@@ -508,6 +523,7 @@
   </div>
 </section>
 
+
       <hr class="hrr m-0" />
 
     <script
@@ -519,9 +535,9 @@
       <!-- CONTACTAME -->
       <section id="contacto" class="aling-items-stretch p-0">
   <div class="p-5 ola">
-    <h2 class="mb-0  contactame section-two">CONTACTAME !</h2>
+    <h2 class="mb-0  contactame section-two"data-section="contacto" data-value="title">CONTACTAME!</h2>
 
-    <p class="lead section-two">
+    <p class="lead section-two"data-section="contacto" data-value="parrafo">
       ¡Conversemos! Estoy abierto a nuevas oportunidades y conexiones. Puedes encontrarme en diferentes plataformas:
     </p>
 
@@ -549,7 +565,7 @@
         <a class="contacto p-2" href="mailto:ignaciolopez2000@gmail.com" target="_blank">ignaciolopez2000@gmail.com</a>
       </li>
     </ul>
-    <div class="mt-3 section-two parrafo">ESTE SITIO ESTÁ DESARROLLADO CON :</div>
+    <div class="mt-3 section-two parrafo" data-section="contacto" data-value="desarrollo">ESTE SITIO ESTÁ DESARROLLADO CON :</div>
        <p class="section-two">
         <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"></a>
         <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"></a>

@@ -1,11 +1,57 @@
 {
-    "nav": {
-      "home": "NACHO",
-      "about": "SOBRE MI",
-      "portfolio": "PORTFOLIO",
-      "skills": "HERRAMIENTAS",
-      "travel": "VIAJES Y IDIOMAS",
-      "contact": "CONTACTO"
-    }
+  "nav": {
+    "home": "NACHO",
+    "about": "SOBRE MÍ",
+    "portfolio": "PORTAFOLIO",
+    "skills": "HABILIDADES",
+    "travel": "VIAJES Y IDIOMAS",
+    "contact": "CONTACTO"
+  },
+  "home": {
+    "welcome": "Bienvenido a mi portafolio como Desarrollador Trainee.",
+    "contact": "Si quieres ponerte en contacto conmigo, escríbeme a",
+    "downloadCvBtn": "Descarga mi CV",
+    "contactEmail": "Ignaciolopez2000"
+  },
+  "about": {
+    "title": "SOBRE MÍ",
+    "description": "Amante de la tecnología y explorador constante. Apasionado por fusionar el mundo digital con experiencias globales. Buscando oportunidades para contribuir y aprender.",
+    "currentStatus": "Actualmente estudiando y buscando expandir mi trabajo en el mundo del desarrollo web.",
+    "contact": "Si deseas ponerte en contacto conmigo, escríbeme a:",
+    "socialMedia": "Te invito a visitar mis perfiles en redes sociales en:",
+    "linkedIn": "LinkedIn",
+    "gitHub": "GitHub"
+  },
+  "portfolio":{
+    "title": "PORTAFOLIO",
+    "crud": "Aplicación Web para gestionar datos CRUD con Login y Autenticacion",
+    "expense":"App eficiente para gestionar gastos con funciones ingresos y egresos",
+    "laboral":"Plataforma para publicar proyectos de software, conecta talento y oportunidades.",
+    "name-peli":"Web de peliculas",
+    "web-peli":"Descubre las Películas más Destacadas del Momento",
+    "ruby":"API Ruby on Rails con : Creación, lectura, actualización y eliminación de datos",
+    "node":"API Node.js con MongoDB: Creación, lectura, actualización y eliminación de datos."
+
+  },
+  "skills":{
+    "title": "SKILLS",
+    "lenguajes": "LENGUAJES DE PROGRAMACIÓN",
+    "frameworks": "FRAMEWORKS Y LIBRERIAS",
+    "software": "SOFTWARE Y HERRAMIENTAS",
+    "actual":"ACTUALMENTE ESTUDIANDO Y APRENDIENDO"
+  },
+  "travel":{
+    "title": "VIAJES Y IDIOMAS",
+    "workingHoliday": "Working Holiday en la República Checa",
+    "workingHolidayDescription": "Actualmente estoy realizando una Working Holiday en la República Checa, explorando nuevas culturas y adquiriendo experiencias únicas.",
+    "languages": "Idiomas",
+    "languagesDescription": "En cuanto a idiomas, cuento con un nivel intermedio de inglés, avanzado en portugués y español como lengua nativa.",
+    "travelApps": "Aplicaciones de Viaje",
+    "travelAppsDescription": "Además, utilizo aplicaciones como Worldpackers y TrustedHousesitters para facilitar mis viajes y experiencias culturales."
+  },
+  "contacto":{
+    "title":"CONTACTAME!",
+    "parrafo":"¡Conversemos! Estoy abierto a nuevas oportunidades y conexiones. Puedes encontrarme en diferentes plataformas:",
+    "desarrollo":"ESTE SITIO ESTÁ DESARROLLADO CON :"
   }
-  
+}
