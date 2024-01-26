@@ -60,9 +60,14 @@
             @media screen and (max-width: 443px) {
                 .smartphone{
                   width: 430px;
-
+                
                 }
                 
+                
+                  
+                .h2f{
+                    font-size: 3rem;
+                }
                 h1{
                     font-size: 5rem;
                     margin-top: 3px;
@@ -79,7 +84,7 @@
                 .sobreMi{
                     width: 250px;
                     padding-left: 35px;
-                    font-size: 2.50rem
+                    font-size: 3rem;
                 }
                 .contactame{
                     width: 380px;
@@ -106,6 +111,14 @@
 
 
                 }
+                .pr1{
+                    width: 100%;
+                    overflow-x: hidden;
+                    padding-top: 40px !important;
+                    padding-left: 50px !important;
+                    padding-bottom: 20px !important;
+                    padding-right: 0 !important;
+                }
                 
                 .pr{
                     width: 100%;
@@ -126,11 +139,35 @@
                     display: inline-block !important;
                     width: 303px;
                 }
+                .ph1{
+                padding-top: 30px;
+                }
+                .language-selector img {
+                    margin-top: 0px !important;
+                }
+                .navbar-nav {
+                    display: none !important;
+                }
+                .navbar-collapse {
+                    display: flex !important; /* Mostrar la barra de navegación en dispositivos pequeños */
+                    justify-content: center;
+                }
+                .navbar-nav {
+                    flex-direction: row !important; /* Alinear los elementos de la barra de navegación en una fila */
+                    margin-left: auto; /* Mover los elementos a la derecha */
+                }
+                .navbar-nav .nav-item {
+                    margin-right: 10px; /* Añadir un pequeño espacio entre los elementos */
+                }
+                .navbar-toggler {
+                    display: none; /* Ocultar el botón de hamburguesa en dispositivos pequeños */
+                }
+                .navbar-brand {
+                    display: none; /* Ocultar la marca en dispositivos pequeños */
+                }
 
-                
-                
                 .navbar {
-                    
+                    display: block;
                     position: fixed;
                     top: 0;
                     left: 0;
