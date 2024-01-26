@@ -52,9 +52,6 @@
                     padding-top: 50px;
 
                 }
-
-
-
             }
 
             .width7{
@@ -65,6 +62,7 @@
                   width: 430px;
 
                 }
+                
                 h1{
                     font-size: 5rem;
                     margin-top: 3px;
@@ -75,30 +73,64 @@
                 .h22{
                    padding-left: 50px;
                 }
+                .bienve{
+                    width: 343px;
+                }
                 .sobreMi{
                     width: 250px;
+                    padding-left: 35px;
+                    font-size: 2.50rem
                 }
                 .contactame{
                     width: 380px;
-
+                
+                }
+                .sm{
+                    width: 340px;
+                }
+                .fonts{
+                    font-size: 3.50rem;
                 }
                 .viajes{
-                    width: 396px;
+                    width: 100%;
+                    overflow-x: hidden;
                 }
                 .portafolio
                 {
-                    width: 456px;
+                    width: 100%;
+                    overflow-x: hidden;
+                    padding-top: 40px !important;
+                    padding-left: 0 !important;
+                    padding-bottom: 0 !important;
+                    padding-right: 0 !important;
+
 
                 }
-                .pr{
-                    width:496px;
-                }
                 
+                .pr{
+                    width: 100%;
+                    overflow-x: hidden ;
+                }
+                .pll{
+                    padding-left:30px
+                }
+                .none2{
+                    display: inline-block !important;
+                }
+                .texto{
+                    font-size: 17px !important;
+                    display: inline-block !important;
+
+                }
+                .none22{
+                    display: inline-block !important;
+                    width: 303px;
+                }
 
                 
                 
                 .navbar {
-                    display: none;
+                    
                     position: fixed;
                     top: 0;
                     left: 0;
@@ -273,6 +305,11 @@
                 color: #17a2b8;
             }
 
+            .boton-descarga:hover {
+                background-color: #00bcd4; /* Color celeste de tu página */
+                border-color: #00bcd4;
+                color: #fff; /* Color de texto cuando hover */
+              }
 
             div p a {
                 color: #FFD800;
