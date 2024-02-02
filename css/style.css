@@ -57,7 +57,7 @@
             .width7{
                 width: 796px;
             }
-            @media screen and (max-width: 443px) {
+            @media screen and (max-width: 685px) {
                 .smartphone{
                   width: 430px;
                 

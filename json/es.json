@@ -29,19 +29,19 @@
     "laboral":"Plataforma para publicar proyectos de software, conecta talento y oportunidades.",
     "name-peli":"Web de peliculas",
     "web-peli":"Descubre las Películas más Destacadas del Momento",
-    "ruby":"API Ruby on Rails con : Creación, lectura, actualización y eliminación de datos",
+    "ruby":"API Ruby on Rails con : Creación, lectura, actualización y eliminación de datos.",
     "node":"API Node.js con MongoDB: Creación, lectura, actualización y eliminación de datos."
 
   },
   "skills":{
     "title": "SKILLS",
     "lenguajes": "LENGUAJES DE PROGRAMACIÓN",
-    "frameworks": "FRAMEWORKS Y LIBRERIAS",
+    "frameworks": "FRAMEWORKS Y LIBRERÍAS",
     "software": "SOFTWARE Y HERRAMIENTAS",
     "actual":"ACTUALMENTE ESTUDIANDO Y APRENDIENDO"
   },
   "travel":{
-    "title": "VIAJES Y IDIOMAS",
+    "title": "VIAJES E IDIOMAS",
     "workingHoliday": "Working Holiday en la República Checa",
     "workingHolidayDescription": "Actualmente estoy realizando una Working Holiday en la República Checa, explorando nuevas culturas y adquiriendo experiencias únicas.",
     "languages": "Idiomas",
@@ -50,7 +50,7 @@
     "travelAppsDescription": "Además, utilizo aplicaciones como Worldpackers y TrustedHousesitters para facilitar mis viajes y experiencias culturales."
   },
   "contacto":{
-    "title":"CONTACTAME!",
+    "title":"CONTÁCTAME!",
     "parrafo":"¡Conversemos! Estoy abierto a nuevas oportunidades y conexiones. Puedes encontrarme en diferentes plataformas:",
     "desarrollo":"ESTE SITIO ESTÁ DESARROLLADO CON :"
   }
