@@ -244,6 +244,9 @@
             .card{
                 width:280px;
             }
+            .card-body {
+                color: #82f5ff !important; 
+              }
             
             a{
                 text-decoration: none;
@@ -389,7 +392,7 @@
 
             .card-body{
                 background-color: #181863 ;
-                color: #82f5ff;
+                color: #82f5ff !important;
                 height: 282px
                 
             }
@@ -500,5 +503,18 @@
               
             .git-pl{
                 padding-left: 17px;
+            }
+
+            .color-cele{
+                color: #82f5ff !important;
+            }
+            /* Agrega este estilo CSS para el efecto de transición al pasar el mouse sobre la imagen */
+            .card-img-top {
+                transition: transform 0.3s ease;
+            }
+            
+            /* Agrega este estilo CSS para aplicar el efecto de escala al pasar el mouse */
+            .card-img-top:hover {
+                transform: scale(1.1); /* Puedes ajustar el valor de escala según tus preferencias */
             }
               
