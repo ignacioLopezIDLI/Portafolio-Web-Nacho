@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "MSC KANOKO",
+    "estado": "FONDEADO",
+    "puerto_origen": "VALPARAÍSO",
+    "calado": "14.5m",
+    "icono": "bi-ship-at-sea"
+  },
+  {
+    "id": 2,
+    "nombre": "VALPARAISO EXPRESS",
+    "estado": "EN RUTA",
+    "puerto_origen": "CALLAO",
+    "calado": "12.1m",
+    "icono": "bi-tsunami"
+  },
+  {
+    "id": 3,
+    "nombre": "COPIAPO",
+    "estado": "MANIOBRA ATRAQUE",
+    "puerto_origen": "SAN ANTONIO",
+    "calado": "13.8m",
+    "icono": "bi-anchor"
+  }
+]

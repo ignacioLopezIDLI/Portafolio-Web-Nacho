@@ -30,9 +30,6 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <!-- JavaScript -->
-  <script src="/js/app.js"></script>
-  <script src="/js/server.js"></script>
   <body>
     <!-- Contenedor Principal -->           
 <div class="container-fluid d-flex p-0">
@@ -173,77 +170,53 @@
             /></a>
             <br />
             <hr class="hrr m-0" />
-           <section id="control-room" class="aling-items-stretch p-5">
-        <div class="container section-two">
-          <h2 class="mb-4 fonts">CONTROL <span class="text">ROOM</span></h2>
+           <section id="control-room" class="p-4 flex-grow-1" style="overflow: hidden;">
+        <div class="container-fluid">
+          <h2 class="mb-4 fonts text-uppercase" style="letter-spacing: 1px;">CONTROL <span class="text">ROOM</span></h2>
           
-          <div class="row g-4">
-            <div class="col-lg-7">
-              <div class="card-maritimo p-2 shadow-lg" id="map-container">
+          <div class="row g-4 mb-4">
+            
+            <div class="col-xl-8 col-lg-7">
+              <div class="card-maritimo p-2 shadow-lg h-100" id="map-container" style="background-color: #11114e; border-radius: 10px; border: 1px solid #82f5ff33;">
                 <iframe 
                   src="https://www.vesselfinder.com/aismap?zoom=&lat=-23.1&lon=-70.4&theme=dark" 
                   width="100%" 
-                  height="500" 
-                  frameborder="0">
+                  height="400" 
+                  frameborder="0"
+                  style="border-radius: 6px;">
                 </iframe>
               </div>
             </div>
-<div class="col-lg-5">
-        <div class="row g-3 h-100"> 
-          
-          <div class="col-md-6">
-            <div class="card-maritimo h-100 shadow-lg" style="background-color: #181863; border-radius: 10px; border: 1px solid #82f5ff33;">
-              <div class="p-3 border-bottom border-secondary">
-                <h5 class="text-primary mb-0" style="font-size: 1.1rem;"><i class="bi bi-radar me-2"></i>BUQUES</h5>
-              </div>
-              <div class="card-body p-0" id="ship-list">
-                <div class="ship-item p-3 border-bottom border-secondary">
-                  <strong style="color: #FFD800; font-size: 1rem;">MSC KANOKO</strong>
-                  <div class="mt-1">
-                    <span class="badge bg-success" style="font-size: 0.7rem;">FONDEADO</span>
-                    <small class="text-info ms-2">ETA: 14:00</small>
-                  </div>
+
+            <div class="col-xl-4 col-lg-5">
+              <div class="card-maritimo shadow-lg p-3 h-100 d-flex flex-column justify-content-between" style="background-color: #181863; border-radius: 10px; border: 1px solid #82f5ff33;">
+                <div class="pb-2 mb-2 border-bottom border-secondary border-opacity-25">
+                  <h5 class="text-primary mb-0" style="font-size: 1.1rem; letter-spacing: 0.5px;"><i class="bi bi-cloud-sun me-2"></i>CLIMA</h5>
                 </div>
-                <div class="ship-item p-3">
-                  <strong style="color: #FFD800; font-size: 1rem;">VALPARAISO</strong>
-                  <div class="mt-1">
-                    <span class="badge bg-warning text-dark" style="font-size: 0.7rem;">EN RUTA</span>
-                    <small class="text-info ms-2">ETA: 18:30</small>
+                <div class="card-body d-flex flex-column justify-content-center align-items-center text-center p-2 flex-grow-1" id="weather-container">
+                  <div class="text-secondary small text-center w-100 py-3">
+                    <div class="spinner-border spinner-border-sm text-info me-2" role="status"></div>
+                    Sincronizando...
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-6">
-  <div class="card-maritimo h-100 shadow-lg" style="background-color: #181863; border-radius: 10px; border: 1px solid #82f5ff33;">
-    <div class="p-3 border-bottom border-secondary">
-      <h5 class="text-primary mb-0" style="font-size: 1.1rem;">
-        <i class="bi bi-cloud-sun me-2"></i>CLIMA
-      </h5>
-    </div>
-    
-    <div class="card-body d-flex flex-column justify-content-center align-items-center text-center p-3" id="weather-container">
-      <div class="spinner-border text-info mb-2" role="status" style="width: 2rem; height: 2rem;">
-        <span class="visually-hidden">Cargando...</span>
-      </div>
-      <p class="text-secondary small text-uppercase mb-0">Sincronizando Mejillones...</p>
-    </div>
-  </div>
-</div>
+          </div> <div class="row">
+            <div class="col-12">
+              <div class="card-maritimo shadow-lg p-4" style="background-color: #181863; border-radius: 10px; border: 1px solid #82f5ff33; height: auto;">
+                <div class="pb-3 mb-3 border-bottom border-secondary border-opacity-25">
+                  <h5 class="text-primary mb-0" style="font-size: 1.2rem; letter-spacing: 0.5px;"><i class="bi bi-radar me-2"></i>BUQUES HISTORIAL</h5>
+                </div>
+                <div class="card-body p-0 d-flex flex-column gap-2" id="ship-list">
+                  <div class="text-secondary small text-center w-100 py-4">
+                    <div class="spinner-border spinner-border-sm text-primary me-2" role="status"></div>
+                    Sincronizando bitácora portuaria...
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-
-        </div> 
-      </div> 
-
-    </div> 
-  </div>
-</section>
-            </div>
-          </div>
-        </section>
+          </div> </div> </section>
         <hr class="hrr m-0" />
 
         
@@ -255,5 +228,7 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"
   ></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/clima.js"></script>
   </body>
 </html>

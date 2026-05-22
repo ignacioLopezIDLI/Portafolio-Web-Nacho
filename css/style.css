@@ -519,4 +519,12 @@
             }
               
 
+            /* Ajustes de espaciado dinámico para la Control Room */
+           
+
+            #ship-list .d-flex:hover {
+                background-color: #ffffff08; /* Sutil efecto al pasar el mouse por el buque */
+                border-radius: 6px;
+            }
+
             
